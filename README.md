@@ -14,51 +14,23 @@ This is a dashboard for to explain the economic freedom and happiness score in S
 
 ## Requirements
 We suggest you to create a separate virtual environment running Python 3 for this app, and install all of the required dependencies there. Run in Terminal/Command Prompt:
+### Explanation of this dashboard
+In this dashbord, you can explore the different Sub-Saharan African countries performance in these areas.
 
-```
-git clone https://github.com/plotly/dash-sample-apps.git
-cd dash-sample-apps/apps/dash-manufacture-spc-dashboard/
-python3 -m virtualenv venv
-```
-In UNIX system: 
+#### Economic Freedom Tab
+This is measured with different parameters. This score shows explains the economic potential for business and growth of a country.
+The data for this study was taken from Economic Freedom by Fraser Institution.
 
-```
-source venv/bin/activate
-```
-In Windows: 
+To get understanding about the parameters, check https://www.fraserinstitute.org/sites/default/files/economic-freedom-of-the-world-2019-appendix.pdf
 
-```
-venv\Scripts\activate
-```
+- Choose parameters to project the comparism of these parameters on first graph
+- Select year to view top 5 countries of the first parameter chosen
+- Choose up to 4 countries to compare their yearly values of the first parameter chosen
 
-To install all of the required packages to this environment, simply run:
+#### Happiness score Tab
+This is a measure of a country to provide wellness to its citizen based of certain parameters which economic freedom is one.
 
-```
-pip install -r requirements.txt
-```
+Download the data from Kaggle: https://www.kaggle.com/unsdsn/world-happiness?select=2019.csv
 
-and all of the required `pip` packages, will be installed, and the app will be able to run.
-
-
-## How to use this app
-
-Run this app locally by:
-```
-python app.py
-```
-Open http://0.0.0.0:8050/ in your browser, you will see a live-updating dashboard.
-
-Click on **Learn more** button to learn more about how this app works.
-
-## What does this app show
-
-Click on buttons in `Parameter` column to visualize details of trendline on the bottom panel.
-
-Click `Start` button, trends are updated every two seconds to simulate real-time measurements. The Sparkline on top panel and Control chart on bottom panel show Shewhart process control using mock data. Data falling outside of control limit are signals indicating 'Out of Control(OOC)', and will 
-trigger alerts instantly for a detailed checkup. 
-
-Operators may stop measurement by clicking `Stop` button, and edit specification parameters for selected process line(metrics) in Specification Tab.
-
-## Resources and references
-* [Shewhart statistical process control](https://en.wikipedia.org/wiki/Shewhart_individuals_control_chart)
-* [Dash User Guide](https://dash.plot.ly/)
+- Choose parameters to project the comparism of these parameters on first graph
+- Choose up to 4 countries to compare their yearly values of the first parameter chosen
