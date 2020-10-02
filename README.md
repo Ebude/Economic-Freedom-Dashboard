@@ -14,10 +14,10 @@ This is a dashboard for to explain the economic freedom and happiness score in S
 
 ## Requirements
 We suggest you to create a separate virtual environment running Python 3 for this app, and install all of the required dependencies there. Run in Terminal/Command Prompt:
-### Explanation of this dashboard
+## Explanation of this dashboard
 In this dashbord, you can explore the different Sub-Saharan African countries performance in these areas.
 
-#### Economic Freedom Tab
+### Economic Freedom Tab
 This is measured with different parameters. This score shows explains the economic potential for business and growth of a country.
 The data for this study was taken from Economic Freedom by Fraser Institution.
 
@@ -27,7 +27,7 @@ To get understanding about the parameters, check https://www.fraserinstitute.org
 - Select year to view top 5 countries of the first parameter chosen
 - Choose up to 4 countries to compare their yearly values of the first parameter chosen
 
-#### Happiness score Tab
+### Happiness score Tab
 This is a measure of a country to provide wellness to its citizen based of certain parameters which economic freedom is one.
 
 Download the data from Kaggle: https://www.kaggle.com/unsdsn/world-happiness?select=2019.csv
