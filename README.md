@@ -1,19 +1,16 @@
-# Manufacturing SPC Dashboard
+#Economic Freedom and Happiness Score Dashboard
 
 ## Introduction
-`Dash-manufacture-spc-dashboard` is a dashboard for monitoring real-time process quality along manufacture production line. 
-This is a demo of Dash interactive Python framework developed by [Plotly](https//plot.ly/).
-
+This is a dashboard for to explain the economic freedom and happiness score in Sub-Saharan Africa
 ## Screenshots
-![initial](img/screencapture2.png)
+![initial](img/im2.png)
 
-![initial](img/screencapture1.png)
+![initial](img/im1.png)
 
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
 * [Plotly Python](https://plot.ly/python/) - Used to create the interactive plots
-* [Dash DAQ](https://dash.plot.ly/dash-daq) - Styled technical components for industrial applications
 
 ## Requirements
 We suggest you to create a separate virtual environment running Python 3 for this app, and install all of the required dependencies there. Run in Terminal/Command Prompt:
