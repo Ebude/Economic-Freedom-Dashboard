@@ -1,4 +1,4 @@
-#Economic Freedom and Happiness Score Dashboard
+# Economic Freedom and Happiness Score Dashboard
 
 ## Introduction
 This is a dashboard for to explain the economic freedom and happiness score in Sub-Saharan Africa
