@@ -3,9 +3,9 @@
 ## Introduction
 This is a dashboard for to explain the economic freedom and happiness score in Sub-Saharan Africa
 ## Screenshots
-![initial](img/im2.png)
-
 ![initial](img/im1.png)
+
+![initial](img/im2.png)
 
 
 ## Built With
