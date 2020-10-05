@@ -21,10 +21,10 @@ app.config["suppress_callback_exceptions"] = True
 
 APP_PATH = str(pathlib.Path(__file__).parent.resolve())
 
-df_EF = pd.read_excel(os.path.join(APP_PATH, os.path.join("data", "EF_Africa.xlsx")))
+df_EF = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "EF_Africa.csv")))
 df_con=df_EF.sort_values(by='Countries')
 
-df_HS = pd.read_excel(os.path.join(APP_PATH, os.path.join("data", "HS_Africa.xlsx")))
+df_HS = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "HS_Africa.csv")))
 del df_HS['Region']
 df_HS_con=df_HS.sort_values(by='Country')
 
